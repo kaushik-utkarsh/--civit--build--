@@ -1,0 +1,83 @@
+.content-in-container {
+  gap: 20px;
+}
+.save-button-invite {
+  background-color: #256eb5;
+  color: #fff;
+  border: 2px solid;
+  padding: 5px 31px;
+  cursor: pointer;
+  float: right;
+  border-color: #256eb5;
+  font-weight: bolder;
+}
+.save-button-invite-transparent {
+  background-color: #fff;
+  color: #256eb5;
+  border: 0px;
+  padding: 5px 31px;
+  cursor: pointer;
+  float: right;
+  border-color: #256eb5;
+  font-weight: bolder;
+}
+.invite-bottom {
+  margin-top: 5%;
+  justify-content: center;
+}
+.custom-table-invite {
+  border: 0.5px solid rgb(201, 200, 200) !important;
+  text-align: start !important;
+}
+
+/* Add a line below the table header */
+.custom-table-invite thead tr {
+  border-bottom: 0.5px solid rgb(201, 200, 200) !important;
+  background-color: #f5fbfd;
+  font-weight: bolder;
+}
+
+.custom-table-invite tbody {
+  /* border-bottom: 2px solid red; */
+  background-color: #ffffff;
+}
+
+.custom-table-invite th {
+  /* border-bottom: 2px solid red; */
+  width: auto !important;
+  font-weight: bolder !important;
+  padding: 2%;
+  background-color: #f5fbfd;
+  /* border-bottom-width: 10% !important; */
+}
+
+.custom-table-invite td {
+  /* border-bottom: 2px solid red; */
+  padding-top: 1rem !important;
+  text-align: -webkit-center !important;
+}
+.scrollable-container-onboarding {
+  max-height: 20%;
+  overflow-y: auto;
+  overflow-x: hidden; /* Enable vertical scrolling */
+}
+.scrollable-container-onboarding::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollable-container-onboarding::-webkit-scrollbar-thumb {
+  background-color: #256eb5; /* Change thumb color */
+}
+
+.scrollable-container-onboarding::-webkit-scrollbar-track {
+  background-color: #ffffff; /* Change track color */
+}
+
+/* For Firefox */
+.scrollable-container-onboarding {
+  scrollbar-color: #002850 #ffffff;
+  scrollbar-width: thin;
+}
+form.form-horizontal.av-invalid {
+  width: 100%;
+}

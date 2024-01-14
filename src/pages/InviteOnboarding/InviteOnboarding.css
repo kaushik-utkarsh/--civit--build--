@@ -1,0 +1,34 @@
+.heading-bold-cstm {
+  color: #002850;
+  font-size: 24px !important;
+  text-align: start;
+  padding: 1%;
+}
+.para-bold-cstm {
+  text-align: start;
+  padding: 1%;
+}
+.save-button-self-onboarding {
+  background-color: #256eb5;
+  color: #fff;
+  border: 2px solid;
+  padding: 5px 31px;
+  cursor: pointer;
+  border-color: #256eb5;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  padding: 1.5%;
+
+}
+.password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 40% !important;
+    right: 25px !important; /* Adjust the value based on your preference */
+    transform: translateY(-50%);
+    cursor: pointer;
+  }

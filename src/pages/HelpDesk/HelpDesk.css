@@ -1,0 +1,105 @@
+.help-desk-search {
+  width: 40%;
+  height: 6vh !important;
+}
+
+.top-search {
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  padding: 12px;
+  background-color: #e6f4fa !important;
+  font-weight: 400;
+  font-size: 16px;
+}
+.container-help {
+  width: 100%;
+  max-width: 1296px;
+  margin: 0 auto;
+  min-height: 658px;
+}
+.container-help-2 {
+  width: 100%;
+  max-width: 1296px;
+  margin: 0 auto;
+  min-height: 378px;
+  background-color: #e6f4fa;
+}
+.container-help-3 {
+  width: 100%;
+  max-width: 1296px;
+  margin: 0 auto;
+  min-height: 378px;
+  background-color: #ffffff;
+}
+.help-card-body {
+  padding-bottom: 0%;
+  margin-bottom: 0% !important;
+  margin: 0px 10px 0px 10px;
+}
+.help-card-body:hover {
+  background-color: #256eb5;
+  color: #ffffff;
+  margin: 0px 10px 0px 10px;
+}
+.questions-help {
+  background-color: #ffffff !important;
+  border-radius: 0% !important;
+}
+.questions-help:hover {
+  background-color: #e6f4fa !important;
+}
+.answer-help {
+  background-color: #fafbfd;
+}
+.ratio-16x9 {
+  --bs-aspect-ratio: calc(9 / 16 * 65%) !important;
+}
+.border-gray-help {
+  border: 1px solid #ffffff;
+  padding: 12px;
+  box-shadow: 0px 2px 13px rgba(5, 6, 6, 0.1);
+  width: 90%;
+  margin: auto;
+}
+.case-study-cards {
+  width: 18rem;
+  height: 440px;
+  border-radius: 0% !important;
+}
+.case-study-cards:hover {
+  background-color: #e6f4fa;
+}
+.case-study-img {
+  border-radius: 0;
+  padding: 5px;
+}
+.case-study-cards-title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  letter-spacing: 0px !important;
+  text-align: left !important;
+}
+.case-study-cards-description {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: #7c7d7e !important;
+}
+.search-tutorial {
+  border: 1px solid #e0e0e0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.search-tutorial:hover {
+  background-color: #e6f4fa;
+}
+
+.search-tutorial:hover .svg-icon {
+  stroke: #256EB5 ; /* Change this to the desired hover color */
+}
+.search-tutorial:hover .svg-icon text{
+  fill: #256EB5 ; /* Change this to the desired hover color */
+}
